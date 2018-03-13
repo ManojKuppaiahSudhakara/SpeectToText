@@ -1,0 +1,28 @@
+{
+    
+    "compose-for-mongodb": [
+      {
+        "credentials": {
+          "db_type": "mongodb",
+          "maps": [],
+          "name": "bmix-dal-yp-ee511fc8-f2f7-435e-bfd2-93d79c500094",
+          "uri_cli": "mongo --ssl --sslAllowInvalidCertificates sl-us-south-1-portal.7.dblayer.com:22999/compose -u USERNAME -p PASSWORD --authenticationDatabase admin",
+          "ca_certificate_base64": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX=",
+          "deployment_id": "59c5a4fe66e7920015002f90",
+          "uri": "mongodb://USERNAME:PASSWORD@sl-us-south-1-portal.7.dblayer.com:22999,sl-us-south-1-portal.8.dblayer.com:22999/compose?authSource=USERNAME&ssl=true"
+        },
+        "syslog_drain_url": null,
+        "volume_mounts": [],
+        "label": "compose-for-mongodb",
+        "provider": null,
+        "plan": "Standard",
+        "name": "Compose for MongoDB-aq",
+        "tags": [
+          "big_data",
+          "data_management",
+          "ibm_created",
+          "ibm_dedicated_public"
+        ]
+      }
+    ]
+}
