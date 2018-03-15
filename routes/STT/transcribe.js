@@ -17,8 +17,8 @@ var GridFsStorage = require('multer-gridfs-storage');
 
 var SpeechToTextV1 = require('watson-developer-cloud/speech-to-text/v1');
 var speech_to_text = new SpeechToTextV1({
-  username: "4ef4eaf0-e5f7-4a42-9dea-4a8d92f4dbb2",
-  password: "OSJ2xIhsf45f"
+  username: "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+  password: "xxxxxxxxxxxxx"
 
 });
 var params = {
